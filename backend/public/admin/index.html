@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Car Service Logbook</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../../modern-enhancements.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Panel</h2>
+        <a href="add-user.html" class="btn">Add User</a>
+        <a href="add-vehicle.html" class="btn">Add Vehicle</a>
+        <a href="add-service.html" class="btn">Add Service</a>
+        
+        <h3>Users</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody">
+            </tbody>
+        </table>
+        
+        <h3>Vehicles</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>User</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="vehicleTableBody">
+            </tbody>
+        </table>
+        
+        <h3>Services</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Vehicle</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th>Cost</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="serviceTableBody">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
