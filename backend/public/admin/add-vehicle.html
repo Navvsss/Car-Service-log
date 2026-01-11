@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Vehicle - Admin Panel</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../../modern-enhancements.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Add Vehicle</h2>
+        <form id="addVehicleForm">
+            <input type="text" id="make" placeholder="Make" required>
+            <input type="text" id="model" placeholder="Model" required>
+            <input type="number" id="year" placeholder="Year" required>
+            <input type="text" id="vin" placeholder="VIN (optional)">
+            <input type="text" id="color" placeholder="Color (optional)">
+            <input type="number" id="mileage" placeholder="Mileage (optional)">
+            <input type="text" id="userId" placeholder="User ID" required>
+            <button type="submit">Add Vehicle</button>
+        </form>
+        <a href="index.html" class="btn">Back to Admin Panel</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

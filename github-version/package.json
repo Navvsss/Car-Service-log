@@ -1,0 +1,20 @@
+{
+  "name": "car-service-logbook",
+  "version": "1.0.0",
+  "description": "A car service logbook application for tracking vehicle maintenance",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo Building...",
+    "start": "serve -s ."
+  },
+  "keywords": ["car", "maintenance", "logbook", "service"],
+  "author": "Car Service Logbook",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
