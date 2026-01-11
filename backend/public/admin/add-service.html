@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Service - Admin Panel</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../../modern-enhancements.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Add Service</h2>
+        <form id="addServiceForm">
+            <input type="text" id="vehicleId" placeholder="Vehicle ID" required>
+            <input type="date" id="date" placeholder="Date" required>
+            <input type="text" id="type" placeholder="Service Type" required>
+            <input type="number" id="mileage" placeholder="Mileage" required>
+            <input type="number" id="cost" placeholder="Cost" required>
+            <textarea id="notes" placeholder="Notes (optional)"></textarea>
+            <input type="text" id="userId" placeholder="User ID" required>
+            <button type="submit">Add Service</button>
+        </form>
+        <a href="index.html" class="btn">Back to Admin Panel</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
